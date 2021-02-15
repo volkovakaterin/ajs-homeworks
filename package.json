@@ -1,0 +1,29 @@
+{
+  "name": "ajs-homeworks",
+  "version": "1.0.0",
+  "description": "1. [Рабочее окружение](working-enviroment/)\r 1. [Модули](modules/)\r 1. [Unit-тестирование](unit-test/)\r 1. [Синтаксические конструкции](syntactic-constructions/)\r 1. [Свойства объектов, обёртки для примитивов](properties-and-wrappers/)\r 1. [Прототипы, конструкторы](prototypes-constructors/)\r 1. [Классы, наследование](classes-inheritance/)\r 1. [Контейнеры](containers/)\r 1. [Math, Regexp, ArrayBuffer](math-regexp-arraybuffer/)\r 1. [Promises, async/await](promises-async-await)\r 1. [Символы, итераторы, генераторы](symbols-iterators-generators/)\r 1. [TypeScript](typescript/)",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/volkovakaterin/ajs-homeworks.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/volkovakaterin/ajs-homeworks/issues"
+  },
+  "homepage": "https://github.com/volkovakaterin/ajs-homeworks#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.12.16",
+    "@babel/core": "^7.12.16",
+    "@babel/preset-env": "^7.12.16",
+    "babel-jest": "^26.6.3",
+    "jest": "^26.6.3"
+  },
+  "dependencies": {
+    "core-js": "^3.8.3"
+  }
+}
